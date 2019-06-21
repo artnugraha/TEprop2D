@@ -2,9 +2,11 @@
 Simple Fortran program to calculate thermoelectric properties of 2D materials.
 
 The main program is "TEprop2D.f90", which can be compiled by standard Fortran compiler (e.g., ifort or gfortran):
+
 `gfortran TEprop2D.f90 -o TEprop2D.out`
 
 Execution:
+
 `./TEprop2D.out`
 
 ## Input format
