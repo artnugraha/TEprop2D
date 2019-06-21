@@ -1,0 +1,22 @@
+# Program TEprop2D.f90 will read "TEprop.inp" as input.
+# Compilation: 
+# ifort TEprop2D.f90 -o TEprop2D.out
+# Execution:
+# ./TEprop2D.out
+
+# Format of TEprop.inp should strictly follow this order:
+# (see the example of "TEprop.inp" to understand better)
+
+energy dispersion filename
+self energy filename
+temperature
+alatt (lattice constant in angstrom)
+thick (thickness in angstrom)
+nkx (# of kx point)
+nky (# of ky point
+nbnd (# of bands)
+nbndvb (index of top valence band)
+nbndcb (index of bottom conduction band)
+nbndc (# of bands to be calculated)
+Efermi0, Efermif (E_F plot range)
+kappa (# lattice thermal conductivity)
