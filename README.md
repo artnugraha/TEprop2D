@@ -28,7 +28,7 @@ Efermi0, Efermif (E_F plot range)
 kappa (# lattice thermal conductivity)
 ```
 
-See examples of "TEprop.inp", "band.eig-300K-200x200-0.00" (energy dispersion file), and "linewidth.elself-300K-200x200-0.00" (self energy file) to better understand the format.
+See examples of "TEprop.inp", "band.eig-300K-200x200-0.00" (energy dispersion file), and "linewidth.elself-300K-200x200-0.00" (self energy file, please unzip it first) to better understand the format.
 
 ## Outputs
 
