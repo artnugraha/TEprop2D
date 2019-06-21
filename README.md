@@ -1,7 +1,7 @@
 # TEprop2D
-Simple Fortran program to calculate thermoelectric properties of 2D materials.
+Simple Fortran program to calculate thermoelectric properties of 2D materials by taking the outputs of Quantum ESPRESSO and EPW packages as the input of the program.
 
-The main program is "TEprop2D.f90", which can be compiled by standard Fortran compiler (e.g., ifort or gfortran):
+The code is "TEprop2D.f90", which can be compiled by standard Fortran compiler (e.g., ifort or gfortran):
 
 `gfortran TEprop2D.f90 -o TEprop2D.out`
 
